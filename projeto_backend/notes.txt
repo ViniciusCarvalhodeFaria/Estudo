@@ -1,0 +1,9 @@
+Model = responsavel por definir a estrutura de dados
+e validar as informações.
+
+Controller = responsável pela regra de negocio da aplicação.
+onde ficam as decisões do sistema.
+
+View = não é interface gráfica, representa o JSON voltando ao cliente, ou seja, a resposta da API.
+
+Routes = recebem as requisiç]oes HTTP e encaminham os dados para o controller correto
