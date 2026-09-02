@@ -1,21 +1,19 @@
-from pathlib import Path
+from pathlib import Path #receber o caminho e o sufixo
 import pdfplumber # leitor de pdf
 import openpyxl #leitor de excel
 from docx import Document #para extrair o docx
 
-def detectar_tipo_arquivo(caminho: str) -> str:
+def extrair_texto(caminho: str) -> str:
     ext = Path(caminho).suffix.lower()
 
     if ext == ".pdf":
         return extrair_pdf(caminho)
     elif ext ==".docx":
         return extrair_docx(caminho)
-    elif ext in (".png", ".jpg", ".jpeg"):
-        return extrair_imagem(caminho)
     elif ext in (".xlsx", ".xls"):
         return extrair_excel(caminho)
     else:
-        return ValueError(f"Tipo de arquivo não suportado: {caminho}")
+        raise ValueError(f"Tipo de arquivo não suportado: {caminho}")
     
         
 
@@ -49,14 +47,10 @@ def extrair_excel(caminho: str) ->str:
                 linhas_texto.append(" ".join(celulas_texto))
     return "\n".join(linhas_texto)
 
-texto = extrair_excel("caminho/para/sua_planilha.xlsx")
-print(texto[:500])
+#texto = extrair_excel("caminho/para/sua_planilha.xlsx")
+#print(texto[:500])
 
 def extrair_docx( caminho: str) -> str:
     doc = Document(caminho)
     paragrafos = [p.text for p in doc.paragraphs]
     return "\n".join(paragrafos)
-
-def extrair_imagem( caminho: str) ->str:
-    imagem = 0
-    return imagem
