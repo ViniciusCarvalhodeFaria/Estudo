@@ -151,3 +151,9 @@ with torch.no_grad():
 acuracia = acertos / total
 print(f"Acurácia no teste: {acuracia:.2%} ({acertos}/{total})")
 
+import joblib
+
+torch.save(modelo.state_dict(), "modelo.pt")
+joblib.dump(vetorizador, "vetorizador.joblib")
+joblib.dump(rotulo_para_indice, "indice_para_rotulo.joblib")
+
