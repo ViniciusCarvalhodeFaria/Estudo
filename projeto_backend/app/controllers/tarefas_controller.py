@@ -11,6 +11,5 @@ def criar_tarefa(tarefa: Tarefa):
 def calcular_pontuacao_total():
     pontuacao_total = 0
     for t in tarefas:
-        if t["tipo"] == "feita":
-            pontuacao_total += t["pontuacao"]
+        pontuacao_total += t["pontuacao"]
     return {"pontuacao_total": pontuacao_total}

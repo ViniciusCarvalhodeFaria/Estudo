@@ -1,0 +1,4 @@
+ bison -d ex2.y
+ flex ex2.l
+ gcc ex2.tab.c lex.yy.c -o calc.exe
+ .\calc.exe

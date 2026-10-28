@@ -3,7 +3,7 @@ tarefas = [
         "id": 1,
         "descricao": "limpar banheiro",    
         "pontuacao": 10,
-        "tipo":"feita"
+        "tipo":"Atrasada"
     },
     {
             "id": 2,
