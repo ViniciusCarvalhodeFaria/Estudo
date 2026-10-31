@@ -1,0 +1,42 @@
+O que é DevOps?
+
+DevOps é um conjunto de práticas que visa integrar a equipa
+e automatizar processos de desenvolvimento de software e 
+outras práticas. Objetivo é garantir entregas mais seguros e eficientes.
+
+Desenvolvedor - Equipe de Operação
+
+necessidade: melhorar a comunicação entre os Devs e os Operadores.
+
+-- Principios --
+
+->Fluxo: foco na entrega rápida e eficiente, garantir que o trabalho flua 
+sem interrupções. 
+inclui: automatizações de build, de testes e de deploy (pipeline CI/CD).
+
+->Feedback: 
+Observabilidade: ferramentas de coleta de métricas, logs e trace,
+além de sistemas de alerta. 
+Ajustar processo, melhroar qualidade do código, alterações frequentes.
+
+->Aprendizado Continuo: estudar novas técnologias, incentivação de 
+experimentação e inovação.
+
+
+planejamento-codificação-build-teste-lançamento-deploy-operação-monitoramento
+-> Plan 
+-> code 
+-> build( compilação do codigo e criação dos artefatos para os ambientes de teste)
+-> test(utilizar os artefatos e executar os testes) 
+-> release ( preparação para ser entregue)
+->deploy( versão para o embiente de produção) 
+-> operação ( aplicação em execução no ambiente de produção e analise do comportamento)
+-> monitoramento ( coleta de métricas, logs, para acompanhar a melhora do software)
+
+Gerencimento de projeto: Gira, Ed devops, github
+IDEs: Vscode, Eclips
+gerenciamento de pacote: npm, nugget, pip
+criar e gerenciar containers: docker e kubernet
+Pipeline(CI/CD): jenkins, github actions, aure pipelines.
+Cloud providers: Aws, google, ag, Oracle
+Observabilidade: elastic stack, grafana(lock), prometheus 

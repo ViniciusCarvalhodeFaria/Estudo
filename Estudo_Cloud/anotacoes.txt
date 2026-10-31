@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=Mzl4Wud_Bp0
+
+focar: AWS ou Firebase
+
+criar projeto 
+
+cadastro e login
+ https://youtu.be/WM178YopjfI?si=XzshR439vccdFpct
+
+criar banco de dados
+https://youtu.be/B5hWIyw6Ztw?si=j_HBZW1Cbf-Wb8_n
+
+criar crud basico
+https://youtu.be/LO6sJbgwAE4?si=BuXmfNw6N3WH8fKp
+
+deploy
+https://www.youtube.com/watch?v=P0x0LmiknJc
