@@ -1,1 +1,3 @@
 Instalei o Power BI -> Seguindo o curso do Data Science Academy
+
+-> introdução sobre graficos pizza, de colunas, mapas, filtros, desing e formatação do Power BI, utilizando a versão Desktop.
