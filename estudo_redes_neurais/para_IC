@@ -1,0 +1,27 @@
+Árvore de Decisão:
+
+- Python : 
+ambiente Jupyter, biblioteca SKlearn, Pandas, Numpu, etc.
+SKLearn.DecisionTree
+SKLearn.DecisionTreeClassifier
+
+Scikit Learn: Biblioteca que inclui vários algoritmos de Machine Learning. Ex: traint_test_split, DecisionTreeClassifier e accuracy_score
+
+jupyter: ambiente web que permite criar e compartilhar documentos que contem codigo, equacoes, visualizações e texto.
+
+Pandas: usado para manipulação de arquivos.
+
+Numpy: é um modulo de processamento numérico em python que oferece funções matemáticas eficientes
+
+O que é Árvore de Decisão?
+
+Modelo visual e analítico usado em machine learning para predizer resultados
+
+DecisionTreeClassifier:
+Critério para as escolhas dos melhores nós:
+
+Ganho de informação: toma entropia como base (pureza de um dado atributo), quanto menor o valor da entropia, melhor!
+
+Indice GINI: métrica para medir o quão frequente um elemento escolhido sera identificado incorretamente. Quanto mais baixo, melhor!
+
+

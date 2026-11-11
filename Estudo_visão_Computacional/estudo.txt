@@ -1,0 +1,52 @@
+A visão computacional: área focada para computadores interpretarem imagens como um humano.
+Olho -> luz -> mensagem
+
+Como ela contribui?
+
+inspeção de uso de epi
+
+YOLO: You only look once
+
+-> recebe uma imagem e responde
+oque existe? 
+onde esta?
+e a confiança?
+
+comando para criar a venv:
+python -m venv {nome q vc quiser}
+
+ativar:
+.\venv\scripts\activate
+
+=========================================
+
+Bibliotecas para instalar:
+
+pip install ultralytics  
+
+pip install opencv-python
+
+pip uninstall torch
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+=================================================
+
+para chamar para detectar uma foto qualquer:
+
+python .\detect_imagem.py
+
+troquei a pasta que gera os arquivos do YOLO:
+
+yolo settings runs_dir="C:/Users/USUARIO/Desktop/Code/codigos/teste/Estudo/Estudo_visão_Computacional/runs"
+
+======================================================
+
+tive que trocar o device = 0 para "cpu", por que uso placa de video integrada
+
+===========================================================
+
+10/11 - o que eu estudei? 
+como fazer detecção de foto, vídeo e camera. 
+
+falta a parte de treinar o modelo e fazer as anotações.
