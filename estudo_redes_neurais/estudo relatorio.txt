@@ -1,0 +1,17 @@
+Aprendizado de Máquina: FEITO
+
+Modelo observa os pares de entrada e saída e mapeia em uma função a entrada para a saída. Modelo do trabalho: Classificação.
+
+generaliza bem = classifica corretamente.
+
+overfitting: ajuste excessivo do treino
+validação cruzada: metodos de treinamento do modelo
+
+Classificadores:
+
+Naive Bayes: atribui a cada exemplo a classe mais favoravel, considerando que os atributos sao independntes entre si
+
+
+Transfer learning: quando a dados suficientes, mas insuficientes no dominio de interesse, o transfer learning
+
+Sugestões: mais fatos sobre os classificadores, colocar cada um deles em subtópicos.

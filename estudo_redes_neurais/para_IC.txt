@@ -25,3 +25,8 @@ Ganho de informação: toma entropia como base (pureza de um dado atributo), qua
 Indice GINI: métrica para medir o quão frequente um elemento escolhido sera identificado incorretamente. Quanto mais baixo, melhor!
 
 
+++++++++++++++++++++
+
+Ferramenta recomendada =  Consensus ( procurar artigos);
+
+Algoritmo: XGBOOST

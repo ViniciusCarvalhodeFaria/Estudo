@@ -50,3 +50,10 @@ tive que trocar o device = 0 para "cpu", por que uso placa de video integrada
 como fazer detecção de foto, vídeo e camera. 
 
 falta a parte de treinar o modelo e fazer as anotações.
+
+============================================================
+
+Treinar o próprio modelo
+https://roboflow.com/
+
+https://www.makesense.ai/
